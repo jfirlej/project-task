@@ -1,0 +1,18 @@
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+body {
+    margin: 0;
+    text-align: center;
+    background: #fff;
+    color: #3d3d3d;
+    font-size: 16px;
+    line-height: 1.7;
+}
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: center;
+
+}
