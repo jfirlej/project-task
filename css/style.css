@@ -62,4 +62,32 @@ section {
   height: 300px;
   background: blue;
 }
+
+footer {
+  padding-top: 2%;
+}
+
+footer li {
+  display: inline-block;
+}
+
+footer i {
+  display: inline-block;
+  color: white;
+  border-radius: 50%;
+  background: black;
+  width: 35px;
+  height: 35px;
+  padding-right: 5%;
+  font-size: 15px;
+}
+
+footer i::before {
+  margin: 35%;
+  line-height: 35px;
+}
+
+footer ul {
+  margin: 3%;
+}
 /*# sourceMappingURL=style.css.map */
