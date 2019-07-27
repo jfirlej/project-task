@@ -38,6 +38,23 @@ section {
   margin-bottom: 5%;
 }
 
+.header a {
+  text-decoration: none;
+  display: inline-block;
+  min-width: 160px;
+  margin: 10% auto 0 auto;
+  background-color: gold;
+  text-align: center;
+  color: aliceblue;
+  border-radius: 5px;
+  padding: 4%;
+  font-size: 15px;
+}
+
+.button-header {
+  margin-left: 32%;
+}
+
 .service {
   position: relative;
   margin-top: 5%;
