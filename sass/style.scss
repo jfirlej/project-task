@@ -1,3 +1,13 @@
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 20px;
+
+}
+
 h1,h2,h3 {
     text-align: center;
 }
@@ -36,28 +46,28 @@ section {
     margin-bottom: 5%;
 }
 .header a {
-    text-decoration: none;
     display: inline-block;
-    min-width: 160px;
-    
-    margin: 10% auto 0 auto;
+    text-decoration: none;
+    width: 40%;
+
+   margin: 10%  30%;
+   
     background-color: gold;
     text-align: center;
     color: aliceblue;
     border-radius: 5px;
    
-    padding: 4%;
-    font-size:15px;
+    padding: 16px;
+    font-size:20px;
 }
-.button-header{
-    margin-left: 32%;
-}
+
 
 //serices
 
 .service {
     position: relative;
-    margin-top: 5%;
+    
+    padding: 40px 0;
 }
 .fas {
     position: absolute;
@@ -69,7 +79,7 @@ section {
     padding-bottom: 20%;
 }
 .icons {
-    padding-top: 5%;
+    padding-top: 10%;
 }
 //prtfolio
 
@@ -84,6 +94,7 @@ footer {
 }
 footer li {
     display: inline-block;
+
 }
 footer i {
     display: inline-block;
@@ -93,7 +104,8 @@ footer i {
     background: black;
     width: 35px;
     height: 35px;
-    padding-right: 5%;
+    
+    
     font-size: 15px;
     
     
@@ -105,5 +117,21 @@ footer i::before {
     
 }
 footer ul {
-    margin: 3%;
+    
+    width: 100%;
+}
+.footer-copy{
+    margin: 1% auto;
+}
+//////
+@media(max-width: 767px)
+{
+    .social {
+        margin: 0 15% ;
+        order: 1;
+    }
+    .footer-copy{
+        order:2;
+    }
+
 }
